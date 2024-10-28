@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "DeliveryAppChainkinsDemo",
+    "slug": "DeliveryAppChainkinsDemo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mayank657585.DeliveryAppChainkinsDemo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.mayank657585.DeliveryAppChainkinsDemo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+    // Add it For eas build if needed
+    // "extra": {
+    //   "eas": {
+    //     // "projectId": "b7e45b18-fd6b-4f76-ab6e-4423c3be9637"
+    //   }
+    // }
+  }
+}

@@ -8,7 +8,7 @@ A React Native app for delivery estimation based on product selection and pincod
 1. **Prerequisites**: Install [Node.js and npm](https://nodejs.org/), [Expo CLI](https://docs.expo.dev/get-started/installation/).
 2. **Installation**:
    ```bash
-   https://github.com/vortex-m/delivery-estimator-app.git
+   https://github.com/vortex-m/clinikally-delivery-estimator-app.git
    cd delivery-estimator-app
    npm install
    ```
@@ -54,11 +54,11 @@ A React Native app for delivery estimation based on product selection and pincod
 ## Screenshots
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://raw.githubusercontent.com/vortex-m/delivery-estimator-app/main/assets/appUi/1First.jpg" alt="First Screen" width="400" height="800">
-  <img src="https://raw.githubusercontent.com/vortex-m/delivery-estimator-app/main/assets/appUi/2Second.jpg" alt="Second Screen" width="400" height="800">
+  <img src="https://raw.githubusercontent.com/vortex-m/clinikally-delivery-estimator-app/main/assets/appUi/1First.jpg" alt="First Screen" width="400" height="800">
+  <img src="https://raw.githubusercontent.com/vortex-m/clinikally-delivery-estimator-app/main/assets/appUi/2Second.jpg" alt="Second Screen" width="400" height="800">
 </div>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://raw.githubusercontent.com/vortex-m/delivery-estimator-app/main/assets/appUi/3Third.jpg" alt="Third Screen" width="400" height="800">
-  <img src="https://raw.githubusercontent.com/vortex-m/delivery-estimator-app/main/assets/appUi/4Fourth.jpg" alt="Fourth Screen" width="400" height="800">
+  <img src="https://raw.githubusercontent.com/vortex-m/clinikally-delivery-estimator-app/main/assets/appUi/3Third.jpg" alt="Third Screen" width="400" height="800">
+  <img src="https://raw.githubusercontent.com/vortex-m/clinikally-delivery-estimator-app/main/assets/appUi/4Fourth.jpg" alt="Fourth Screen" width="400" height="800">
 </div>

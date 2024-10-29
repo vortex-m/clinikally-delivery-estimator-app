@@ -29,6 +29,7 @@ const ProductScreen = ({ route, onSelectProduct }) => {
 
       {/* If product in stock then show the DeliveryEstimator time. */}
       {product?.inStock && (
+        //  <View style={{flexGrow:1, aspectRatio:1}}> {/* aspect ratio for web scroller */}
         <View>
           <DeliveryEstimator product={product} />
         </View>
@@ -40,6 +41,8 @@ const ProductScreen = ({ route, onSelectProduct }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    // flexGrow: 1,
+    // aspectRatio: 1,
     paddingHorizontal: width * 0.05,
     backgroundColor: "#fff",
   },

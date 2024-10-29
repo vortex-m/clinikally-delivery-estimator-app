@@ -199,6 +199,7 @@ const styles = StyleSheet.create({
     marginTop: width * 0.02,
     fontSize: width * 0.05,
     fontWeight: "bold",
+    textAlign: "center",
   },
   timerView: {
     flexDirection: "column",
@@ -209,6 +210,7 @@ const styles = StyleSheet.create({
   timerText: {
     fontSize: width * 0.048,
     color: "red",
+    textAlign: "center",
   },
   timerCount: {
     textAlign: "center",

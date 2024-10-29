@@ -13,7 +13,9 @@ const ProductList = ({ products, onSelectProduct }) => {
       )}
       keyExtractor={(item) => item.id.toString()}
       initialNumToRender={10}
-      contentContainerStyle={{ flexGrow: 1}} // aspect ration for web scroller
+      contentContainerStyle={{ flexGrow: 1}} 
+      
+      // contentContainerStyle={{ flexGrow: 1, aspectRatio: 1 }} // aspect ration for web scroller
     />
   );
 };

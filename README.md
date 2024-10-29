@@ -16,7 +16,28 @@ A React Native app for delivery estimation based on product selection and pincod
    ```bash
    npx expo start
    ```
-4. **Web Deployment** : For web, install `react-native-web` and run `npm start`.
+4. **Web Deployment** :
+    ```bash
+    npx expo install react-dom react-native-web @expo/metro-runtime
+    npx expo start --web
+    npx expo export --platform web
+    ```
+5. **Hosting** :
+   ```bash
+   npm install -g netlify-cli
+   netlify deploy --dir dist
+   ```
+ - **Add**: /*    /index.html   200 -> Public -> _redirects
+
+## **Netlify Build Setting**:
+   - **Build Command**:
+   ```bash
+    npx expo export -p web
+   ```
+   - **Publish directory**:
+   ```bash
+   dist
+   ```
 
 ## Assumptions
 
